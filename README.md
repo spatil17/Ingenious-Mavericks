@@ -8,3 +8,11 @@ The aim of this portal is the provide a solution that prevents scenarios where s
 It also aims at providing a platform where students can discuss about swapping classes and answer questions asked about classes , professors or another academic and university related information.
 
 
+
+Members:-
+Kavya Kumar Vallurupalli
+Shwetambara Patil
+Loknath Reddy
+Vishal Gadhiraju
+Sashwath 
+
