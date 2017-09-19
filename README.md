@@ -10,9 +10,9 @@ It also aims at providing a platform where students can discuss about swapping c
 
 
 Members:-
-Kavya Kumar Vallurupalli
-Shwetambara Narayan Patil
-Loknath Reddy
-Vishal Gadiraju
+Kavya Kumar Vallurupalli,
+Shwetambara Narayan Patil,
+Loknath ChandraReddy,
+Vishal Gadiraju,
 Shashwath 
 
