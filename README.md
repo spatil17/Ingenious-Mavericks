@@ -13,6 +13,6 @@ Members:-
 Kavya Kumar Vallurupalli
 Shwetambara Narayan Patil
 Loknath Reddy
-Vishal Gadhiraju
+Vishal Gadiraju
 Shashwath 
 
