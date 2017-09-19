@@ -11,7 +11,7 @@ It also aims at providing a platform where students can discuss about swapping c
 
 Members:-
 Kavya Kumar Vallurupalli
-Shwetambara Patil
+Shwetambara Narayan Patil
 Loknath Reddy
 Vishal Gadhiraju
 Shashwath 
