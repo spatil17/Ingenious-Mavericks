@@ -13,6 +13,5 @@ Members:-
 Kavya Kumar Vallurupalli,
 Shwetambara Narayan Patil,
 Loknath ChandraReddy,
-Vishal Gadiraju,
-Shashwath 
+Vishal Gadiraju.
 
