@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<style>
+body{
+background-color: #CEF6F5
+}
+h3 {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #0B0B61;
+    color: white;
+    padding: 20px;
+    }
+input[type=email],[type=password], select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 40%;
+    background-color: #0B0B3B;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #0A0A2A;
+}
+
+div {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+
+<h2>Login</h2>
+
+<form ng-app="myApp" ng-controller="validateCtrl"
+name="myForm" novalidate>
+
+<p>Username:<br>
+<input type="email" name="email" ng-model="email" required>
+<span style="color:red" ng-show="myForm.email.$dirty && myForm.email.$invalid">
+<span ng-show="myForm.email.$error.required">Email is required.</span>
+<span ng-show="myForm.email.$error.email">Invalid email address.</span>
+</span>
+</p>
+<p>Password <br>
+<input type="password" name="pwd" ng-model="pwd" required>
+<span style="color:red" ng-show="myForm.pwd.$dirty && myForm.pwd.$invalid">
+<span ng-show="myForm.user.$error.required">Password is required.</span>
+</span>
+</p>
+
+<p>
+<input type="submit"
+ng-disabled="myForm.pwd.$dirty && myForm.pwd.$invalid ||
+myForm.email.$dirty && myForm.email.$invalid">
+</p>
+<a href="#!Registration">New User?</a>
+
+</form>
+
+<script>
+var app = angular.module("myApp", ["ngRoute"]);
+app.controller('validateCtrl', function($scope) {
+    $scope.email = '';
+    $scope.pwd = '';
+
+    app.config(function($routeProvider) {
+    $routeProvider
+    .when("/", {
+        templateUrl : "login.htm"
+    })
+    .when("/Registration", {
+        templateUrl : "Registration.htm"
+    });
+});
+});
+</script>
+
+</body>
+</html>
